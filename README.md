@@ -1,11 +1,23 @@
 # `mama`
-`mama` is a Python-based command line tool that meta-analyzes GWAS summary statistics generated from distinct ancestry groups. For more details please see [Turley et al. (2021)](https://www.biorxiv.org/content/10.1101/2021.04.23.441003v1) and [Turley et al. (2018)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5805593/).
+`mama` is a Python-based command line tool that meta-analyzes GWAS summary statistics generated from distinct ancestry groups. For more details please see [Turley et al. (2021)](https://www.biorxiv.org/content/10.1101/2021.04.23.441003v1
+        
+        
+        
+        
+        
+        ) and [Turley et al. (2018)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5805593
+        
+        
+        
+        
+        
+        /).
 
 
 ### Getting started
 You can clone the repository with 
 ```
-$ git clone git@github.com:JonJala/mama.git
+$ git clone git@github.com:1667857557/mama.git
 $ cd mama
 ```
 The easiest way to ensure your libraries will be compatible with the dependencies in the software is to instantiate a virtual environment with [`virtualenv`](https://virtualenv.pypa.io/en/latest/). Once `virtualenv` is installed on your machine, you can type the following:
@@ -38,3 +50,4 @@ You may also contact us via email, although we encourage github issues so others
 ### Citation
 
 If you are using the `mama` method or software, please cite Turley, Patrick et al. "Multi-Ancestry Meta-Analysis yields novel genetic discoveries and ancestry-specific associations". *bioRxiv*. (2021).
+
