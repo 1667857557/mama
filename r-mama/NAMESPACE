@@ -1,0 +1,4 @@
+useDynLib(mamars, .registration = TRUE)
+export(mama_core)
+export(mama_analysis)
+export(mama_fit)
