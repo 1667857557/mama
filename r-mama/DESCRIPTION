@@ -1,0 +1,14 @@
+Package: mamars
+Type: Package
+Title: Memory-Efficient MAMA Core Implemented in Rust
+Version: 0.1.0
+Authors@R: person("MAMA", "Developers", role = c("aut", "cre"), email = "maintainers@example.org")
+Description: A small, dependency-free Rust implementation of the core
+    multi-ancestry meta-analysis estimator. Computation is performed one SNP at
+    a time so that intermediate P by P matrices are never materialised for all
+    variants at once.
+License: GPL-3
+Encoding: UTF-8
+NeedsCompilation: yes
+SystemRequirements: Cargo (Rust)
+

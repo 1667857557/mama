@@ -13,6 +13,13 @@
         
         /).
 
+## R / Rust implementation
+
+The [`r-mama`](r-mama/) directory contains an R package backed by a
+bounded-memory Rust implementation. Its [function flow and
+tutorial](r-mama/README.md) document installation, coefficient constraints,
+QC flags, and the mapping to the reference Python pipeline.
+
 
 ### Getting started
 You can clone the repository with 

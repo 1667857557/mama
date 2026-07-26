@@ -1,0 +1,14 @@
+RUST_DIR=rust
+RUST_LIB=$(RUST_DIR)/target/release/libmamars_core.a
+
+PKG_LIBS=$(RUST_LIB) -ldl -lpthread -lm
+
+$(SHLIB): $(RUST_LIB)
+
+$(RUST_LIB): $(wildcard $(RUST_DIR)/src/*.rs) $(RUST_DIR)/Cargo.toml
+	cd $(RUST_DIR) && cargo build --release
+
+clean:
+	$(RM) $(SHLIB) $(OBJECTS)
+	cd $(RUST_DIR) && cargo clean
+
